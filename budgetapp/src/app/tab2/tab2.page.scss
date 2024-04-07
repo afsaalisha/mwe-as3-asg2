@@ -1,0 +1,64 @@
+ion-app {
+    background-color: #ffffff !important;
+  }
+  
+  ion-content {
+    --background: #ffffff;
+    padding-top: 50px; 
+  }
+  
+  ion-header {
+    ion-toolbar {
+      --background: #ffffff;
+      text-align: center;
+      color: black;
+      font-weight: bold;
+    }
+  }
+  
+  .tip-card {
+    background-color: #E08D5E;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  
+  .card-content {
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-image {
+    width: 40%;
+    float: left;
+  }
+  
+  .card-image.right {
+    float: right;
+  }
+  
+  .title {
+    font-weight: bold;
+    color: white;
+  }
+  
+  .description {
+    font-size: calc(1vw + 12px);
+    margin: 0;
+  }
+  
+  ion-card-title.title {
+    font-size: calc(1.5vw + 12px);
+  }
+  
+  ion-card-content .description {
+    font-size: calc(1vw + 8px);
+  }
+  
