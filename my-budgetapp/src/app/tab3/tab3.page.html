@@ -1,0 +1,35 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>TRANSACTION</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen="true">
+  <ion-card>
+    <ion-card-content>
+      <ion-item>
+        <ion-label position="floating">Amount</ion-label>
+        <ion-input type="number" id="amount" [(ngModel)]="newTransaction.amount"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Description</ion-label>
+        <ion-input type="text" id="description" [(ngModel)]="newTransaction.description"></ion-input>
+      </ion-item>
+      <ion-button expand="full" class="add-transaction-button" (click)="addTransaction()">Add Transaction</ion-button>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Transaction History Card -->
+  <ion-card class="transaction-history-card">
+    <ion-card-header>
+      <ion-card-title color="black">Transaction History</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item *ngFor="let transaction of transactionHistory">
+        <ion-label>{{ transaction.description }}</ion-label>
+        <ion-label>${{ transaction.amount }}</ion-label>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

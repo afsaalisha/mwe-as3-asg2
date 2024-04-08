@@ -1,0 +1,76 @@
+ion-app {
+  background-color: #ffffff !important;
+}
+
+ion-content {
+  --background: #ffffff;
+  padding-top: 50px; 
+}
+
+ion-header {
+  ion-toolbar {
+    --background: #ffffff;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+  }
+}
+
+ion-card {
+  background-color: #ffffff; /* Set darker card background color */
+  --ion-border-color: #dddddd; /* Set card border color */
+  --ion-box-shadow-color: #000000; /* Set card box shadow color */
+  --ion-color-base: #333333; /* Set card text color */
+}
+
+
+.welcome-title {
+  .center-align {
+    text-align: center;
+  }
+  
+  .title-text {
+    font-size: 24px;
+    margin: 0;
+    color: black;
+    font-weight: bolder;
+  }
+
+  .logo-img {
+    max-width: 250px;
+    margin-top: 10px;
+  }
+}
+
+.center-align {
+  text-align: center;
+}
+.chart-container {
+  margin-top: 20px; /* Adjust the margin-top as needed */
+}
+.overview-card {
+  display: flex;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #E08D5E; /* Set background color */
+  color: white; /* Set text color */
+  align-items: center; /* Align items horizontally */
+  justify-content: space-between; /* Put space between image and button */
+}
+.overview-card img {
+  width: 100px; /* Adjust the width of the image as needed */
+  height: auto;
+  margin-right: 20px; /* Add space between image and text */
+}
+.overview-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+.overview-button {
+  margin-left: auto; /* Push the button to the right end */
+}
+
+.view-details-button {
+    background-color: white;
+    color: black; /* Set text color */
+  }

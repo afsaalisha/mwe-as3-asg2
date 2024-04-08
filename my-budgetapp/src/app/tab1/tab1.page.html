@@ -1,0 +1,48 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>HOME</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">tip3</ion-title>
+    </ion-toolbar>
+  </ion-header>
+</ion-content>
+
+<ion-app>
+  <ion-header translucent="true">
+    <ion-toolbar>
+      <ion-title>
+        HOME
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content fullscreen="true">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title class="welcome-title">
+          <div class="center-align">
+            <h1 class="title-text">WELCOME TO</h1>
+            <img src="assets\logo.png" alt="Logo" class="logo-img">
+          </div>
+        </ion-card-title>
+      </ion-card-header>
+    </ion-card>
+
+    <div class="center-align chart-container">
+      <img src="assets\chart.png" alt="Chart" class="chart-img"> <!-- Your chart image -->
+    </div>
+
+    <ion-card class="overview-card">
+      <img src="assets\overview.png" alt="Overview Image">
+      <ion-card-content>
+        <ion-card-title class="overview-title">Spending Overview</ion-card-title>
+      </ion-card-content>
+      <ion-button routerLink="/view-details">OPEN</ion-button>    </ion-card>
+    
+  </ion-content>
+</ion-app>
