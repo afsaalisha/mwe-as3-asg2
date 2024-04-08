@@ -46,31 +46,31 @@ ion-card {
   text-align: center;
 }
 .chart-container {
-  margin-top: 20px; /* Adjust the margin-top as needed */
+  margin-top: 20px;
 }
 .overview-card {
   display: flex;
   padding: 20px;
   margin-top: 20px;
-  background-color: #E08D5E; /* Set background color */
-  color: white; /* Set text color */
-  align-items: center; /* Align items horizontally */
-  justify-content: space-between; /* Put space between image and button */
+  background-color: #E08D5E; 
+  color: white; 
+  align-items: center;
+  justify-content: space-between; 
 }
 .overview-card img {
-  width: 100px; /* Adjust the width of the image as needed */
+  width: 100px; 
   height: auto;
-  margin-right: 20px; /* Add space between image and text */
+  margin-right: 20px; 
 }
 .overview-title {
   font-size: 18px;
   font-weight: bold;
 }
 .overview-button {
-  margin-left: auto; /* Push the button to the right end */
+  margin-left: auto;
 }
 
 .view-details-button {
     background-color: white;
-    color: black; /* Set text color */
+    color: black;
   }

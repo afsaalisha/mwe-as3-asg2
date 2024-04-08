@@ -13,18 +13,15 @@ export class Tab3Page {
   constructor() {}
 
   toggleHistory() {
-    this.showHistory = !this.showHistory; // Toggle the visibility
+    this.showHistory = !this.showHistory;
   }
 
   addTransaction() {
-    // Check if new transaction data is present
     if (this.newTransaction.amount && this.newTransaction.description) {
-      // Add new transaction to transaction history array
       this.transactionHistory.push({
         amount: this.newTransaction.amount,
         description: this.newTransaction.description
       });
-      // Clear input fields
       this.newTransaction = {};
     }
   }
